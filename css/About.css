@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --main-color: #fe390c;
+    --text-color: #a9a9aa;
+    --black-color: #111214;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-anton: "Anton", sans-serif;
+    --bg-color: #F7F7F7;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: ; */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.aboutPage_about_header {
+    background-image: url("../imgs/about_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.aboutPage_about_header h1 {
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 154px;
+    font-family: var(--font-anton);
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.path {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.path span {
+    color: white;
+}
+
+
+.aboutPage_imgs {
+    width: 40%;
+}
+
+.aboutPage_imgs img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.aboutPage_mainAbout .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+
+.aboutPage_mainAbout .about_info {
+    width: 50%;
+}
+
+.aboutPage_mainAbout .about_info h2 {
+    font-family: var(--font-anton);
+    color: var(--black-color);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+
+
+.aboutPage_about_row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.aboutPage_about_row .about_data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboutPage_about_row .about_data span {
+    font-size: 60px;
+    font-family: var(--font-anton);
+    font-weight: 400;
+    color: var(--main-color);
+    line-height: 90px;
+}
+
+.aboutPage_about_row .about_data h5 {
+    font-family: var(--font-montserrat);
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.aboutPage_mainSkills {
+    background-color: var(--bg-color);
+}
+
+.aboutPage_mainSkills .container {
+    display: flex;
+
+    align-items: center;
+    padding: 70px 0px;
+    gap: 50px;
+}
+
+.aboutPage_mainSkills .skills_info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.aboutPage_mainSkills .skills_info .page_name span {
+    line-height: 0px !important;
+}
+
+.aboutPage_mainSkills .skills_info p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.skills_percent {
+    width: 50%;
+}
+
+.skills_percent .skills_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills_percent .skills_row h4 {
+    line-height: 20px;
+    font-family: var(--font-montserrat);
+    color: var(--black-color);
+    font-weight: 600;
+    letter-spacing: -4%;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.skills_percent .line {
+    width: 100%;
+    height: 6px;
+    border-radius: 24px;
+    background-color: #DDDEE0;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.skills_percent .line .orange {
+    width: 90%;
+    height: 100%;
+    border-radius: 24px;
+    background-color: var(--main-color);
+}
+
+.skills_percent .two .orange {
+    width: 95%;
+
+}
+
+
+.skills_percent .four .orange {
+    width: 85%;
+
+}
+
+.aboutPage_experiences {
+    padding: 70px 20px;
+}
+
+.aboutPage_experiences h1 {
+    justify-content: center;
+}
+
+.experiences_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.experiences_card .experiences_box {
+    width: 23%;
+    padding: 12px;
+}
+
+.experiences_card .experiences_box:nth-child(2) {
+    padding-top: 30px;
+
+}
+
+.experiences_card .experiences_box:nth-child(3) {
+    padding-top: 60px;
+
+}
+
+.experiences_card .experiences_box:nth-child(4) {
+    padding-top: 90px;
+
+}
+
+
+
+.experiences_card .experiences_box img {
+    margin-bottom: 20px;
+}
+
+.experiences_card .title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.experiences_card .title span {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    font-family: var(--font-anton);
+    color: var(--main-color);
+}
+
+.experiences_card .title h4 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font-montserrat);
+    line-height: 30px;
+    color: var(--black-color);
+}
+
+.experiences_card .title h5 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--font-montserrat);
+    line-height: 20px;
+    color: var(--main-color);
+}
+
+/* 
+.main_cvdown {
+    background-image: url("../imgs/Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-position: center;
+    margin: 50px 80px;
+    margin-top: -50px;
+
+
+} */
+
+.main_cvdown .container {
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_cvdown h1 {
+    color: white;
+    font-family: var(--font-anton);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    text-transform: capitalize;
+}
+
+.main_cvdown .main_down_link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.main_cvdown .main_down_link i {
+    color: var(--main-color);
+    font-size: 21px;
+
+}
+
+@media(max-width:1100px) {
+    .aboutPage_about_header h1 {
+        font-size: 64px;
+        line-height: 96px;
+
+    }
+
+    .aboutPage_mainAbout .container {
+        padding: 60px 20px;
+
+    }
+
+
+    .aboutPage_mainSkills .container {
+        padding: 70px 20px;
+    }
+
+
+    .experiences_card {
+        flex-wrap: wrap;
+    }
+
+    .experiences_card .experiences_box {
+        width: 50%;
+    }
+
+
+
+}
+
+@media(max-width:780px) {
+    .aboutPage_mainAbout .container {
+        padding: 50px 20px;
+        flex-direction: column;
+
+    }
+
+
+    .aboutPage_mainAbout .about_info {
+        width: 100%;
+    }
+
+    .aboutPage_imgs {
+        width: 60%;
+    }
+
+    .aboutPage_mainAbout .about_info h2 {
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 10px;
+    }
+
+    .aboutPage_mainSkills .container {
+        padding: 40px 20px;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .aboutPage_mainSkills .skills_info {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skills_percent {
+        width: 100%;
+    }
+
+
+    .aboutPage_mainSkills {
+        background-color: white;
+    }
+
+    .experiences_card {
+        flex-wrap: wrap;
+    }
+
+    .experiences_card .experiences_box {
+        width: 60%;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .aboutPage_imgs {
+        width: 100%;
+    }
+    .experiences_card .experiences_box {
+        width: 80%;
+    }
+
+}

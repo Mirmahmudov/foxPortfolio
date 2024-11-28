@@ -1,0 +1,46 @@
+.servicePage_service_header {
+    background-image: url("../imgs/service_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.servicePage_service_header h1 {
+    font-weight: 400;
+    font-size: 130px;
+    line-height: 154px;
+    font-family: var(--font-anton);
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.path {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.path span {
+    color: white;
+}
+
+@media(max-width:1100px) {
+    .servicePage_service_header h1 {
+        font-size: 64px;
+        line-height: 96px;
+
+    }
+}
+
+@media(max-width:780px) {}
+@media (max-width:550px) {
+}
