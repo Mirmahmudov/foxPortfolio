@@ -16,3 +16,15 @@ document.querySelectorAll(".accordion-header").forEach((header) => {
     }
   });
 });
+
+const menu = document.querySelector(".menu");
+const nav_ul = document.querySelector(".nav_modal");
+const exit = document.querySelector("#xmark");
+
+menu.addEventListener("click", () => {
+  nav_ul.classList.add("active");
+});
+
+exit.addEventListener("click", () => {
+  nav_ul.classList.remove("active");
+});
